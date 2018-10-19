@@ -1,18 +1,15 @@
 package OpenUni;
-
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class Item {
     private String mItemName;
     private double mItemPrice;
-    private static HashMap<String, Double> mItems;
+    public static HashMap<String, Double> mItems = new HashMap<>();
 
     public Item(String mItemName, double mItemPrice) {
         this.mItemPrice = mItemPrice;
         this.mItemName = mItemName;
-        this.mItems = new HashMap<>();
+        this.mItems.put(mItemName, mItemPrice);
     }
 
     public String getmItemName() {
@@ -34,4 +31,5 @@ public class Item {
     public static double getPriceByName(String itemName){
         return mItems.get(itemName);
     }
+
 }
