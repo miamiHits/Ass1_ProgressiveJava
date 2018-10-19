@@ -24,8 +24,21 @@ public class InvoiceLine {
         this.mItem = mItem;
     }
 
+    public int getmCount() {
+        return mCount;
+    }
+
+    public double getmTotalSum() {
+        return mTotalSum;
+    }
+
+
     private void calcTotalSum(Item item, int count){
         this.mTotalSum = count * item.getmItemPrice();
+    }
+
+    public String printInvoiceLine(){
+        return "Item Name: " + this.mItem.getmItemName() + " Item Count: " + this.mCount  + " Total Price : " + this.mTotalSum;
     }
 
 }

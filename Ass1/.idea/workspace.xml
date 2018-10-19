@@ -15,12 +15,14 @@
       <file leaf-file-name="Cash.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/OpenUni/Cash.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="825">
+              <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#327#328#0" expanded="true" />
                 <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#1407#1408#0" expanded="true" />
+                <element signature="e#1444#1445#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -29,13 +31,17 @@
       <file leaf-file-name="InvoiceLine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OpenUni/InvoiceLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="600">
+              <caret line="40" column="126" selection-start-line="40" selection-start-column="126" selection-end-line="40" selection-end-column="126" />
               <folding>
                 <element signature="e#175#176#0" expanded="true" />
                 <element signature="e#203#204#0" expanded="true" />
                 <element signature="e#243#244#0" expanded="true" />
                 <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
                 <element signature="e#501#502#0" expanded="true" />
                 <element signature="e#563#564#0" expanded="true" />
               </folding>
@@ -226,13 +232,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OpenUni/InvoiceLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="600">
+          <caret line="40" column="126" selection-start-line="40" selection-start-column="126" selection-end-line="40" selection-end-column="126" />
           <folding>
             <element signature="e#175#176#0" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
             <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
             <element signature="e#501#502#0" expanded="true" />
             <element signature="e#563#564#0" expanded="true" />
           </folding>
@@ -241,12 +251,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OpenUni/Cash.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="825">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
           </folding>
         </state>
       </provider>
