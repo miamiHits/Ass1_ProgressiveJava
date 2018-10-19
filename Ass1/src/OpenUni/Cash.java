@@ -1,29 +1,25 @@
 package OpenUni;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class Cash {
 
-    private double mcurrent_money = 0;
-    private Map<String, Integer> mitems;
-    private List<String> mInvoice;
+    private double mCurrent_money = 0;
+    private List<InvoiceLine> mAllLines;
+
     public Cash (double curr_money) {
-        this.mcurrent_money = curr_money;
-        this.mitems = new HashMap<>();
-        this.mInvoice = new ArrayList<>();
+        this.mCurrent_money = curr_money;
+        this.mAllLines = new ArrayList<>();
     }
 
     public Cash ( ) {
-        this.mitems = new HashMap<>();
-        this.mInvoice = new ArrayList<>();
+        this.mAllLines = new ArrayList<>();
     }
 
-    public void addItemToInvoice(String itemName, int itemCount){
-        this.mitems.put(itemName, itemCount);
-        this.mInvoice.add("Item: " + itemName + "Item Count: " + itemCount);
+    public void addItemToInvoice(Item item, int itemCount){
+        InvoiceLine e = new InvoiceLine(item, itemCount);
+        mAllLines.add(e);
     }
 
 
