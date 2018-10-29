@@ -23,7 +23,7 @@ public class Main {
                 " 1 - Get your invoice.\n" +
                 " 2 - Get your total sum of purchase.\n" +
                 " 3 - Pay.\n" +
-                " 4 - Get amount of money in the cash register .\n +" +
+                " 4 - Get amount of money in the cash register .\n " +
                 " 5 - Exit System . \n";
 
         System.out.print(menu);
@@ -32,6 +32,7 @@ public class Main {
         while (choise != 5){
             switch (choise){
                 case(1):
+                    System.out.println("Your Invoice is: ");
                     System.out.println(cash.getCurrTotalInvoice());
                     break;
 
@@ -51,9 +52,9 @@ public class Main {
 
                 default:
                     System.out.println("Wrong choise.. lets try again. Enter ");
-                    choise = sc.nextInt();
             }
 
+            System.out.println("-- You didnt ask to exit, so we'll start over again -- ");
             System.out.println(menu);
             choise = sc.nextInt();
         }
