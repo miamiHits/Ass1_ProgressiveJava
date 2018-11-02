@@ -1,6 +1,4 @@
-package OpenUni;
-
-import java.util.List;
+package OpenUni.Cash;
 
 public class InvoiceLine {
 
